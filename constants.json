@@ -3,12 +3,12 @@
     {
       "name": "Кофелософия",
       "address": "Наб. Канала Грибоедова 106",
-      "logo": ""
+      "logo": "https://raw.githubusercontent.com/AustinWood/coffee-constants/master/logos/logo_kofelosofiya.png"
     },
     {
       "name": "Парадная",
       "address": "Ул. Кирочная 7а",
-      "logo": ""
+      "logo": "https://raw.githubusercontent.com/AustinWood/coffee-constants/master/logos/logo_paradnaya.png"
     },
   ]
 }
