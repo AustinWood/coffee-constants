@@ -3,8 +3,8 @@
     {
       "name": "Кофелософия",
       "address": "Наб. Канала Грибоедова 106",
-      "logo": "https://res.cloudinary.com/oblaka/image/upload/v1586851507/logo_kofelosofiya_yyiwvb.png"
-      "photo": "https://res.cloudinary.com/oblaka/image/upload/v1586851425/cafe_photo_qhdyfv.jpg"
+      "logo": "https://res.cloudinary.com/oblaka/image/upload/v1586851507/logo_kofelosofiya_yyiwvb.png",
+      "photo": "https://res.cloudinary.com/oblaka/image/upload/v1586851425/cafe_photo_qhdyfv.jpg",
       "phone": "+79211731234",
       "hours": [
         {"Пн-Пт": "9:00-21:00"},
