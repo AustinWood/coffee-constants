@@ -4,7 +4,7 @@
       "name": "Кофелософия",
       "address": "Наб. Канала Грибоедова 106",
       "logo": "https://res.cloudinary.com/oblaka/image/upload/v1586851507/logo_kofelosofiya_yyiwvb.png",
-      "photo": "https://res.cloudinary.com/oblaka/image/upload/v1586851425/cafe_photo_qhdyfv.jpg",
+      "photo": "https://res.cloudinary.com/oblaka/image/upload/v1587048439/cafe_interior_cropped_dark_wcf6mo.jpg",
       "phone": "+79211731234",
       "hours": [
         {"Пн-Пт": "9:00-21:00"},
@@ -107,7 +107,7 @@
       "name": "Парадная",
       "address": "Ул. Кирочная 7а",
       "logo": "https://res.cloudinary.com/oblaka/image/upload/v1586851507/logo_paradnaya_rgmwhn.png",
-      "photo": "https://res.cloudinary.com/oblaka/image/upload/v1587026406/cafe_interior_light_qx8her.jpg",
+      "photo": "https://res.cloudinary.com/oblaka/image/upload/v1587048440/cafe_interior_cropped_light_amih2k.jpg",
       "phone": "+79211735678",
       "hours": [
         {"Пн-Чт": "9:00-21:00"},
