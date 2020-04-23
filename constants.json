@@ -17,17 +17,29 @@
             {
               "name": "Завтрак от Шефа",
               "description": "Омлет с сыром, томатами и беконом или фирменные сырники с малиновым вареньем с классическим круассаном и напитком на выбор: американо, эспрессо, классический капучино, классический латте, фильтр-кофе или чай.",
-              "image": "https://shoko.ru/upload/resize_cache/s1/fit_70_700x700/iblock/566/5663f70a3dbbd78f2bde254bd0a1d9c7.jpg"
+              "image": "https://shoko.ru/upload/resize_cache/s1/fit_70_700x700/iblock/566/5663f70a3dbbd78f2bde254bd0a1d9c7.jpg",
+              "options": [{"Напиток на выбор": [
+                  {"Американо": 0}, {"Эспрессо": 0},
+                  {"Классический капучино": 0}, {"Классический латте": 0},
+                  {"Фильтр-кофе": 0}, {"Чай": 0}]}]
             },
             {
               "name": "Капучино",
               "description": "Эспрессо с молоком",
-              "image": "https://shoko.ru/upload/resize_cache/s1/fit_70_700x700/iblock/63c/63cedaaedfde6069d21267e5e639928d.jpg"
+              "image": "https://shoko.ru/upload/resize_cache/s1/fit_70_700x700/iblock/63c/63cedaaedfde6069d21267e5e639928d.jpg",
+              "options": [
+                {"Объем": [{"250 мл": 0}, {"350 мл": 30}]},
+                {"Вид молока на выбор": [{"Коровье молоко": 0}, {"Овсяное молоко": 30}, {"Кокосовое молоко": 30}]}
+              ]
             },
             {
               "name": "Флэт Уайт",
               "description": "Эспрессо с молоком",
-              "image": "https://shoko.ru/upload/resize_cache/s1/fit_70_700x700/iblock/093/0934b0168c23ee9f5bfc7cafaaf52a72.jpg"
+              "image": "https://shoko.ru/upload/resize_cache/s1/fit_70_700x700/iblock/093/0934b0168c23ee9f5bfc7cafaaf52a72.jpg",
+              "options": [
+                {"Объем": [{"250 мл": 0}, {"350 мл": 30}]},
+                {"Вид молока на выбор": [{"Коровье молоко": 0}, {"Овсяное молоко": 30}, {"Кокосовое молоко": 30}]}
+              ]
             },
             {
               "name": "Чизкейк",
