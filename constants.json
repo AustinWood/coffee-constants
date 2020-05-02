@@ -7,8 +7,8 @@
       "photo": "https://res.cloudinary.com/oblaka/image/upload/v1587048439/cafe_interior_cropped_dark_wcf6mo.jpg",
       "phone": "+79211731234",
       "hours": [
-        {"Пн-Пт": "09:00-21:00"},
-        {"Сб-Вс": "10:00-22:00"}
+        {"Пн-Пт": "09:00 - 21:00"},
+        {"Сб-Вс": "10:00 - 22:00"}
       ],
       "menu": [
         {
@@ -175,9 +175,9 @@
       "photo": "https://res.cloudinary.com/oblaka/image/upload/v1587048440/cafe_interior_cropped_light_amih2k.jpg",
       "phone": "+79211735678",
       "hours": [
-        {"Пн-Чт": "09:00-21:00"},
-        {"Пт": "09:00-22:00"},
-        {"Сб-Вс": "10:00-22:00"}
+        {"Пн-Чт": "09:00 - 21:00"},
+        {"Пт": "09:00 - 22:00"},
+        {"Сб-Вс": "10:00 - 22:00"}
       ],
       "menu": [
         {
