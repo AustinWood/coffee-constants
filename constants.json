@@ -11,7 +11,8 @@
         {"Сб-Вс": "10:00 - 22:00"}
       ],
       "menu_categories": [
-        {"Напитки": ["cappuccino", "latte"]}
+        {"Напитки": ["cappuccino", "latte"]},
+        {"Популярное": ["cappuccino"]}
       ],
       "menu_products": {
         "cappuccino": {
