@@ -27,6 +27,24 @@
           "options": [],
           "product_ids": {}
         },
+        "espresso": {
+          "name": "Эспрессо",
+          "visible": true,
+          "description": "Крепкий и вкусный",
+          "image": "https://shoko.ru/upload/resize_cache/s1/fit_70_700x700/iblock/f62/f62c5ca2464626365fa75d4ee0296f17.jpg",
+          "price": 90,
+          "options": [],
+          "product_ids": {}
+        },
+        "americano": {
+          "name": "Американо",
+          "visible": true,
+          "description": "Классический кофе",
+          "image": "https://shoko.ru/upload/resize_cache/s1/fit_70_700x700/iblock/b89/b895b06f2144b41afc61bdb19502c54c.jpg",
+          "price": 90,
+          "options": [],
+          "product_ids": {}
+        },
         "cappuccino": {
           "name": "Капучино",
           "visible": true,
