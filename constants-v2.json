@@ -1,0 +1,72 @@
+{
+  "cafes": [
+    {
+      "name": "Кофелософия",
+      "address": "Наб. Канала Грибоедова 106",
+      "logo": "https://res.cloudinary.com/oblaka/image/upload/v1586851507/logo_kofelosofiya_yyiwvb.png",
+      "photo": "https://res.cloudinary.com/oblaka/image/upload/v1587048439/cafe_interior_cropped_dark_wcf6mo.jpg",
+      "phone": "+79211731234",
+      "hours": [
+        {"Пн-Пт": "09:00 - 21:00"},
+        {"Сб-Вс": "10:00 - 22:00"}
+      ],
+      "menu_categories": [
+        {"Черный": ["irish_coffee"]},
+        {"С молоком": ["cappuccino", "latte"]},
+        {"Раф": []},
+        {"Не кофе": []},
+        {"Десерты": []}
+      ],
+      "menu_products": {
+        "irish_coffee": {
+          "name": "Irish Coffee",
+          "visible": false,
+          "description": "Кофе с виски",
+          "image": "https://shoko.ru/upload/resize_cache/s1/fit_70_700x700/iblock/762/762feb1e3ef786e85115387f56cdcfc6.jpg",
+          "price": 300,
+          "options": [],
+          "product_ids": {}
+        },
+        "cappuccino": {
+          "name": "Капучино",
+          "visible": true,
+          "description": "Эспрессо с молоком",
+          "image": "https://shoko.ru/upload/resize_cache/s1/fit_70_700x700/iblock/63c/63cedaaedfde6069d21267e5e639928d.jpg",
+          "price": 150,
+          "options": [
+            {"Объем": [{"250 мл": 0}, {"350 мл": 30}]},
+            {"Вид молока на выбор": [{"Коровье молоко": 0}, {"Овсяное молоко": 50}]},
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "000": 96,
+            "001": 133,
+            "010": 261,
+            "011": 262,
+            "100": 98,
+            "101": 131,
+            "110": 267,
+            "111": 268
+          }
+        },
+        "latte": {
+          "name": "Латте",
+          "visible": true,
+          "description": "Эспрессо с молоком",
+          "image": "https://shoko.ru/upload/resize_cache/s1/fit_70_700x700/iblock/762/762feb1e3ef786e85115387f56cdcfc6.jpg",
+          "price": 170,
+          "options": [
+            {"Вид молока на выбор": [{"Коровье молоко": 0}, {"Овсяное молоко": 50}]},
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 99,
+            "01": 135,
+            "10": 265,
+            "11": 266
+          }
+        }
+      }
+    }
+  ]
+}
