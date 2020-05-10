@@ -11,7 +11,7 @@
         {"Сб-Вс": "10:00 - 22:00"}
       ],
       "menu_categories": [
-        {"Черный": ["irish_coffee"]},
+        {"Черный": ["irish_coffee", "espresso", "americano"]},
         {"С молоком": ["cappuccino", "latte"]},
         {"Раф": []},
         {"Не кофе": []},
