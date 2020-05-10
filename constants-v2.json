@@ -11,30 +11,26 @@
         {"Сб-Вс": "10:00 - 22:00"}
       ],
       "menu_categories": [
-        {"Черный": ["irish_coffee", "espresso", "americano"]},
+        {"Черный": ["espresso"]},
         {"С молоком": ["cappuccino", "latte"]},
         {"Раф": []},
         {"Не кофе": []},
         {"Десерты": []}
       ],
       "menu_products": {
-        "irish_coffee": {
-          "name": "Irish Coffee",
-          "visible": false,
-          "description": "Кофе с виски",
-          "image": "https://shoko.ru/upload/resize_cache/s1/fit_70_700x700/iblock/762/762feb1e3ef786e85115387f56cdcfc6.jpg",
-          "price": 300,
-          "options": [],
-          "product_ids": {}
-        },
         "espresso": {
           "name": "Эспрессо",
           "visible": true,
           "description": "Крепкий и вкусный",
           "image": "https://shoko.ru/upload/resize_cache/s1/fit_70_700x700/iblock/f62/f62c5ca2464626365fa75d4ee0296f17.jpg",
           "price": 90,
-          "options": [],
-          "product_ids": {}
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "0": 101,
+            "1": 128
+          }
         },
         "americano": {
           "name": "Американо",
