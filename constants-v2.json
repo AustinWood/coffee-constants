@@ -15,7 +15,7 @@
         {"С молоком": ["cappuccino", "latte"]},
         {"Раф": []},
         {"Не кофе": []},
-        {"Десерты": []}
+        {"Десерты": ["cinnamon_roll", "cherry_pie", "oatmeal_cookie", "chocolate_cookie", "croissant"]}
       ],
       "menu_products": {
         "espresso": {
@@ -78,6 +78,76 @@
             "01": 135,
             "10": 265,
             "11": 266
+          }
+        },
+        "cinnamon_roll": {
+          "name": "Шведская булочка с корицей",
+          "visible": true,
+          "description": "",
+          "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/cinnamon_roll_kosydr.jpg",
+          "price": 110,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "0": 352,
+            "1": 352
+          }
+        },
+        "cherry_pie": {
+          "name": "Вишнёвый пирог",
+          "visible": true,
+          "description": "",
+          "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/cherry-pie_fiqd2h.jpg",
+          "price": 165,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "0": 351,
+            "1": 351
+          }
+        },
+        "oatmeal_cookie": {
+          "name": "Овсяное печенье",
+          "visible": true,
+          "description": "",
+          "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/oatmeal-cookie_ntppo3.jpg",
+          "price": 50,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "0": 349,
+            "1": 349
+          }
+        },
+        "chocolate_cookie": {
+          "name": "Шоколадное печенье",
+          "visible": true,
+          "description": "",
+          "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/chocolate-cookie_l732sz.jpg",
+          "price": 60,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "0": 350,
+            "1": 350
+          }
+        },
+        "croissant": {
+          "name": "Круассан",
+          "visible": true,
+          "description": "",
+          "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/croissant_ebmedj.jpg",
+          "price": 70,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "0": 241,
+            "1": 242
           }
         }
       }
