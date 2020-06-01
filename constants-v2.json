@@ -48,8 +48,8 @@
         "filter_coffee": {
           "name": "Фильтр кофе",
           "visible": true,
-          "description": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591049285/filter_syvely.jpg",
-          "image": "",
+          "description": "",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591049285/filter_syvely.jpg",
           "price": 90,
           "options": [
             {"Takeout": [{"Здесь": 0}, {"С собой": 0}]},
@@ -101,10 +101,78 @@
             "11": 266
           }
         },
-        "cinnamon_roll": {
-          "name": "Шведская булочка с корицей",
+         "vanilla_raff": {
+          "name": "Раф ванильный",
           "visible": true,
           "description": "",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050076/raff_ceuncu.jpg",
+          "price": 210,
+          "options": [
+            {"Вид молока на выбор": [{"Коровье молоко": 0}, {"Овсяное молоко": 50}]},
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 108,
+            "01": 138,
+            "10": 271,
+            "11": 272
+          }
+        },
+        "banana_raff": {
+          "name": "Раф банан",
+          "visible": true,
+          "description": "",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050076/raff_ceuncu.jpg",
+          "price": 210,
+          "options": [
+            {"Вид молока на выбор": [{"Коровье молоко": 0}, {"Овсяное молоко": 50}]},
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 110,
+            "01": 136,
+            "10": 273,
+            "11": 274
+          }
+        },
+        "caramel_raff": {
+          "name": "Раф солёная карамель",
+          "visible": true,
+          "description": "",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050076/raff_ceuncu.jpg",
+          "price": 210,
+          "options": [
+            {"Вид молока на выбор": [{"Коровье молоко": 0}, {"Овсяное молоко": 50}]},
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 114,
+            "01": 141,
+            "10": 281,
+            "11": 282
+          }
+        },
+        "citrus_raff": {
+          "name": "Раф цитрусовый",
+          "visible": true,
+          "description": "",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050076/raff_ceuncu.jpg",
+          "price": 210,
+          "options": [
+            {"Вид молока на выбор": [{"Коровье молоко": 0}, {"Овсяное молоко": 50}]},
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 109,
+            "01": 142,
+            "10": 277,
+            "11": 278
+          }
+        },
+        "cinnamon_roll": {
+          "name": "Шведская булочка",
+          "visible": true,
+          "description": "Булочка с корицей",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/cinnamon_roll_kosydr.jpg",
           "price": 110,
           "options": [
