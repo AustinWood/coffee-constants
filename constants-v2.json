@@ -11,7 +11,7 @@
         {"Сб-Вс": "10:00 - 22:00"}
       ],
       "menu_categories": [
-        {"Черный": ["espresso", "americano", "filter_coffee"},
+        {"Черный": ["espresso", "americano", "filter_coffee"]},
         {"С молоком": ["cappuccino", "latte"]},
         {"Не кофе": []},
         {"Десерты": ["cinnamon_roll", "cherry_pie", "oatmeal_cookie", "chocolate_cookie", "croissant"]}
