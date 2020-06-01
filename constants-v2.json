@@ -11,9 +11,8 @@
         {"Сб-Вс": "10:00 - 22:00"}
       ],
       "menu_categories": [
-        {"Черный": ["espresso"]},
+        {"Черный": ["espresso", "americano", "filter_coffee"},
         {"С молоком": ["cappuccino", "latte"]},
-        {"Раф": []},
         {"Не кофе": []},
         {"Десерты": ["cinnamon_roll", "cherry_pie", "oatmeal_cookie", "chocolate_cookie", "croissant"]}
       ],
@@ -36,10 +35,32 @@
           "name": "Американо",
           "visible": true,
           "description": "Классический кофе",
-          "image": "https://shoko.ru/upload/resize_cache/s1/fit_70_700x700/iblock/b89/b895b06f2144b41afc61bdb19502c54c.jpg",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591049508/americano_mppm02.jpg",
           "price": 90,
-          "options": [],
-          "product_ids": {}
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "0": 355,
+            "1": 356
+          }
+        },
+        "filter_coffee": {
+          "name": "Фильтр кофе",
+          "visible": true,
+          "description": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591049285/filter_syvely.jpg",
+          "image": "",
+          "price": 90,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]},
+            {"Объем": [{"250 мл": 0}, {"350 мл": 60}]}
+          ],
+          "product_ids": {
+            "00": 195,
+            "01": 193,
+            "10": 196,
+            "11": 194
+          }
         },
         "cappuccino": {
           "name": "Капучино",
