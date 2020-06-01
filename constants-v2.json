@@ -12,8 +12,8 @@
       ],
       "menu_categories": [
         {"Черный": ["espresso", "americano", "filter_coffee"]},
-        {"С молоком": ["cappuccino", "latte"]},
-        {"Не кофе": []},
+        {"С молоком": ["cappuccino", "latte", "vanilla_raff", "banana_raff", "caramel_raff", "citrus_raff"]},
+        {"Не кофе": ["green_tea"]},
         {"Десерты": ["cinnamon_roll", "cherry_pie", "oatmeal_cookie", "chocolate_cookie", "croissant"]}
       ],
       "menu_products": {
@@ -167,6 +167,20 @@
             "01": 142,
             "10": 277,
             "11": 278
+          }
+        },
+        "green_tea": {
+          "name": "Зеленый чай",
+          "visible": true,
+          "description": "",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050066/green_tea_b0zr5w.jpg",
+          "price": 70,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "0": 118,
+            "1": 144
           }
         },
         "cinnamon_roll": {
