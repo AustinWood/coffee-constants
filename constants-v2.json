@@ -12,7 +12,7 @@
       ],
       "menu_categories": [
         {"Черный": ["espresso", "americano", "filter_coffee"]},
-        {"С молоком": ["cappuccino", "latte", "vanilla_raff", "banana_raff", "caramel_raff", "citrus_raff"]},
+        {"С молоком": ["cappuccino", "latte", "raff"]},
         {"Не кофе": ["green_tea"]},
         {"Десерты": ["cinnamon_roll", "cherry_pie", "oatmeal_cookie", "chocolate_cookie", "croissant"]}
       ],
@@ -21,7 +21,7 @@
           "name": "Эспрессо",
           "visible": true,
           "description": "Крепкий и вкусный",
-          "image": "https://shoko.ru/upload/resize_cache/s1/fit_70_700x700/iblock/f62/f62c5ca2464626365fa75d4ee0296f17.jpg",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050042/espresso_val9pt.jpg",
           "price": 90,
           "options": [
             {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
@@ -66,7 +66,7 @@
           "name": "Капучино",
           "visible": true,
           "description": "Эспрессо с молоком",
-          "image": "https://shoko.ru/upload/resize_cache/s1/fit_70_700x700/iblock/63c/63cedaaedfde6069d21267e5e639928d.jpg",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050037/capu4ino_tljdd0.jpg",
           "price": 150,
           "options": [
             {"Объем": [{"250 мл": 0}, {"350 мл": 30}]},
@@ -101,72 +101,34 @@
             "11": 266
           }
         },
-         "vanilla_raff": {
-          "name": "Раф ванильный",
+         "raff": {
+          "name": "Раф",
           "visible": true,
           "description": "",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050076/raff_ceuncu.jpg",
           "price": 210,
           "options": [
+            {"Вкус": [{"Ванильный": 0}, {"Банан": 0}, {"Солёная карамель": 0}, {"Цитрусовый": 0}]},
             {"Вид молока на выбор": [{"Коровье молоко": 0}, {"Овсяное молоко": 50}]},
             {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
           ],
           "product_ids": {
-            "00": 108,
-            "01": 138,
-            "10": 271,
-            "11": 272
-          }
-        },
-        "banana_raff": {
-          "name": "Раф банан",
-          "visible": true,
-          "description": "",
-          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050076/raff_ceuncu.jpg",
-          "price": 210,
-          "options": [
-            {"Вид молока на выбор": [{"Коровье молоко": 0}, {"Овсяное молоко": 50}]},
-            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
-          ],
-          "product_ids": {
-            "00": 110,
-            "01": 136,
-            "10": 273,
-            "11": 274
-          }
-        },
-        "caramel_raff": {
-          "name": "Раф солёная карамель",
-          "visible": true,
-          "description": "",
-          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050076/raff_ceuncu.jpg",
-          "price": 210,
-          "options": [
-            {"Вид молока на выбор": [{"Коровье молоко": 0}, {"Овсяное молоко": 50}]},
-            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
-          ],
-          "product_ids": {
-            "00": 114,
-            "01": 141,
-            "10": 281,
-            "11": 282
-          }
-        },
-        "citrus_raff": {
-          "name": "Раф цитрусовый",
-          "visible": true,
-          "description": "",
-          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050076/raff_ceuncu.jpg",
-          "price": 210,
-          "options": [
-            {"Вид молока на выбор": [{"Коровье молоко": 0}, {"Овсяное молоко": 50}]},
-            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
-          ],
-          "product_ids": {
-            "00": 109,
-            "01": 142,
-            "10": 277,
-            "11": 278
+            "000": 108,
+            "001": 138,
+            "010": 271,
+            "011": 272,
+            "100": 110,
+            "101": 136,
+            "110": 273,
+            "111": 274,
+            "200": 114,
+            "201": 141,
+            "210": 281,
+            "211": 282,
+            "300": 109,
+            "301": 142,
+            "310": 277,
+            "311": 278
           }
         },
         "green_tea": {
