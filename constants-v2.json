@@ -50,7 +50,7 @@
           "visible": true,
           "description": "",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591049508/americano_mppm02.jpg",
-          "price": 90,
+          "price": 200,
           "options": [
             {"Takeout": [{"Здесь": 0}, {"С собой": 0}]},
             {"Выберите напиток": [{"v60": 0}, {"Аэропресс": 0}]}
