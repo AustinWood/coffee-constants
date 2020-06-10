@@ -1,0 +1,336 @@
+{
+  "cafes": [
+    {
+      "name": "Кофелософия",
+      "address": "Наб. Канала Грибоедова 106",
+      "logo": "https://res.cloudinary.com/oblaka/image/upload/v1586851507/logo_kofelosofiya_yyiwvb.png",
+      "photo": "https://res.cloudinary.com/oblaka/image/upload/v1589716145/kofelosofiya_d2h2bj.jpg",
+      "phone": "+79117526936",
+      "hours": [
+        {"Пн-Пт": "09:00 - 21:00"},
+        {"Сб-Вс": "10:00 - 22:00"}
+      ],
+      "menu_categories": [
+        {
+          "name": "Черный",
+          "items": ["espresso", "americano", "filter_coffee", "alternative"],
+          "free_eligible": true
+        },
+        {
+          "name": "С молоком",
+          "items": ["cappuccino", "latte", "raff", "flat"],
+          "free_eligible": true
+        },
+        {
+          "name": "Не кофе",
+          "items": ["green_tea", "black_tea", "matcha", "cacao"],
+          "free_eligible": true
+        },
+        {
+          "name": "Десерты",
+          "items": ["cinnamon_roll", "cherry_pie", "oatmeal_cookie", "chocolate_cookie", "croissant"],
+          "free_eligible": false
+        }
+      ],
+      "menu_products": {
+        "espresso": {
+          "name": "Эспрессо",
+          "visible": true,
+          "description": "Сахар - зло",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050042/espresso_val9pt.jpg",
+          "price": 90,
+          "options": [
+            {"С молоком?": [{"Без молока": 0}, {"С молоком": 30}]},
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 101,
+            "01": 128,
+            "10": 359,
+            "11": 365
+          }
+        },
+        "americano": {
+          "name": "Американо",
+          "visible": true,
+          "description": "Эспрессо + вода",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591049508/americano_mppm02.jpg",
+          "price": 90,
+          "options": [
+            {"С молоком?": [{"Без молока": 0}, {"С молоком": 30}]},
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 355,
+            "01": 356,
+            "10": 360,
+            "11": 366
+          }
+        },
+        "alternative": {
+          "name": "Альтернатива",
+          "visible": true,
+          "description": "Варим вручную",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591049508/americano_mppm02.jpg",
+          "price": 200,
+          "options": [
+            {"Выберите напиток": [{"v60": 0}, {"Аэропресс": 0}]},
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 106,
+            "01": 298,
+            "10": 299,
+            "11": 300
+          }
+        },
+        "filter_coffee": {
+          "name": "Фильтр кофе",
+          "visible": true,
+          "description": "Как в кино",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591049285/filter_syvely.jpg",
+          "price": 90,
+          "options": [
+            {"Объем": [{"250 мл": 0}, {"350 мл": 60}]},
+            {"С молоком?": [{"Без молока": 0}, {"С молоком": 30}]},
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "000": 195,
+            "001": 196,
+            "010": 361,
+            "011": 367,
+            "100": 193,
+            "101": 194,
+            "110": 362,
+            "111": 368
+          }
+        },
+        "cappuccino": {
+          "name": "Капучино",
+          "visible": true,
+          "description": "Эспрессо с молоком",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050037/capu4ino_tljdd0.jpg",
+          "price": 150,
+          "options": [
+            {"Объем": [{"250 мл": 0}, {"350 мл": 30}]},
+            {"Вид молока на выбор": [{"Коровье молоко": 0}, {"Овсяное молоко": 50}]},
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "000": 96,
+            "001": 133,
+            "010": 261,
+            "011": 262,
+            "100": 98,
+            "101": 131,
+            "110": 267,
+            "111": 268
+          }
+        },
+        "latte": {
+          "name": "Латте",
+          "visible": true,
+          "description": "Больше молока",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050037/capu4ino_tljdd0.jpg",
+          "price": 170,
+          "options": [
+            {"Вид молока на выбор": [{"Коровье молоко": 0}, {"Овсяное молоко": 50}]},
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 99,
+            "01": 135,
+            "10": 265,
+            "11": 266
+          }
+        },
+         "raff": {
+          "name": "Раф",
+          "visible": true,
+          "description": "Ван лав",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050076/raff_ceuncu.jpg",
+          "price": 210,
+          "options": [
+            {"Вкус": [{"Ванильный": 0}, {"Банан": 0}, {"Солёная карамель": 0}, {"Цитрусовый": 0}]},
+            {"Вид молока на выбор": [{"Коровье молоко": 0}, {"Овсяное молоко": 50}]},
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "000": 108,
+            "001": 138,
+            "010": 271,
+            "011": 272,
+            "100": 110,
+            "101": 136,
+            "110": 273,
+            "111": 274,
+            "200": 114,
+            "201": 141,
+            "210": 281,
+            "211": 282,
+            "300": 109,
+            "301": 142,
+            "310": 277,
+            "311": 278
+          }
+        },
+        "green_tea": {
+          "name": "Зеленый чай",
+          "visible": true,
+          "description": "Сенча",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050066/green_tea_b0zr5w.jpg",
+          "price": 70,
+          "options": [
+            {"С молоком?": [{"Без молока": 0}, {"С молоком": 30}]},
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 118,
+            "01": 144,
+            "10": 364,
+            "11": 370
+          }
+        },
+        "black_tea": {
+          "name": "Черный чай",
+          "visible": true,
+          "description": "Ассам",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050032/black_tea_npyy2k.jpg",
+          "price": 70,
+          "options": [
+            {"С молоком?": [{"Без молока": 0}, {"С молоком": 30}]},
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 115,
+            "01": 145,
+            "10": 363,
+            "11": 369
+          }
+        },
+        "matcha": {
+          "name": "Маття латте",
+          "visible": true,
+          "description": "Да, это матча",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050110/matta_txsggm.jpg",
+          "price": 170,
+          "options": [
+            {"Вид молока на выбор": [{"Коровье молоко": 0}, {"Овсяное молоко": 50}]},
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 159,
+            "01": 161,
+            "10": 269,
+            "11": 270
+          }
+        },
+        "cacao": {
+          "name": "Какао",
+          "visible": true,
+          "description": "Топим шоколад",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591219678/new_cacao_wr7ern.jpg",
+          "price": 220,
+          "options": [
+            {"Вид молока на выбор": [{"Коровье молоко": 0}, {"Овсяное молоко": 50}]},
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 164,
+            "01": 165,
+            "10": 287,
+            "11": 288
+          }
+        },
+        "flat": {
+          "name": "Флэт уайт",
+          "visible": true,
+          "description": "Больше кофе",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050061/flat_chktqt.jpg",
+          "price": 150,
+          "options": [
+            {"Вид молока на выбор": [{"Коровье молоко": 0}, {"Овсяное молоко": 50}]},
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 97,
+            "01": 134,
+            "10": 263,
+            "11": 264
+          }
+        },
+        "cinnamon_roll": {
+          "name": "Шведская булочка",
+          "visible": true,
+          "description": "Булочка с корицей",
+          "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/cinnamon_roll_kosydr.jpg",
+          "price": 110,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "0": 352,
+            "1": 352
+          }
+        },
+        "cherry_pie": {
+          "name": "Вишнёвый пирог",
+          "visible": true,
+          "description": "",
+          "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/cherry-pie_fiqd2h.jpg",
+          "price": 165,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "0": 351,
+            "1": 351
+          }
+        },
+        "oatmeal_cookie": {
+          "name": "Овсяное печенье",
+          "visible": true,
+          "description": "",
+          "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/oatmeal-cookie_ntppo3.jpg",
+          "price": 50,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "0": 349,
+            "1": 349
+          }
+        },
+        "chocolate_cookie": {
+          "name": "Шоколадное печенье",
+          "visible": true,
+          "description": "",
+          "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/chocolate-cookie_l732sz.jpg",
+          "price": 60,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "0": 350,
+            "1": 350
+          }
+        },
+        "croissant": {
+          "name": "Круассан",
+          "visible": true,
+          "description": "",
+          "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/croissant_ebmedj.jpg",
+          "price": 70,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "0": 241,
+            "1": 242
+          }
+        }
+      }
+    }
+  ]
+}
