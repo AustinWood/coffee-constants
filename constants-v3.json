@@ -22,13 +22,13 @@
           "free_eligible": true
         },
         {
-          "name": "Не кофе",
-          "items": ["green_tea", "black_tea", "matcha", "cacao"],
+          "name": "Холодные",
+          "items": ["ice_latte", "espresso_tonik", "cherry_filter", "creamy_peach"],
           "free_eligible": true
         },
         {
-          "name": "Холодные",
-          "items": ["ice_latte", "espresso_tonik", "cherry_filter", "creamy_peach"],
+          "name": "Не кофе",
+          "items": ["green_tea", "black_tea", "matcha", "cacao"],
           "free_eligible": true
         },
         {
