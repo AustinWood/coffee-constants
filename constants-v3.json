@@ -11,10 +11,26 @@
         {"Сб-Вс": "10:00 - 22:00"}
       ],
       "menu_categories": [
-        {"Черный": ["espresso", "americano", "filter_coffee", "alternative"]},
-        {"С молоком": ["cappuccino", "latte", "raff", "flat"]},
-        {"Не кофе": ["green_tea", "black_tea", "matcha", "cacao"]},
-        {"Десерты": ["cinnamon_roll", "cherry_pie", "oatmeal_cookie", "chocolate_cookie", "croissant"]}
+        {
+          "name": "Черный",
+          "items": ["espresso", "americano", "filter_coffee", "alternative"],
+          "free_eligible": true
+        },
+        {
+          "name": "С молоком",
+          "items": ["cappuccino", "latte", "raff", "flat"],
+          "free_eligible": true
+        },
+        {
+          "name": "Не кофе",
+          "items": ["green_tea", "black_tea", "matcha", "cacao"],
+          "free_eligible": true
+        },
+        {
+          "name": "Десерты",
+          "items": ["cinnamon_roll", "cherry_pie", "oatmeal_cookie", "chocolate_cookie", "croissant"],
+          "free_eligible": false
+        }
       ],
       "menu_products": {
         "espresso": {
@@ -52,20 +68,17 @@
           }
         },
         "alternative": {
-          "name": "Альтернатива",
+          "name": "Аэропресс",
           "visible": true,
           "description": "Варим вручную",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591049508/americano_mppm02.jpg",
           "price": 200,
           "options": [
-            {"Выберите напиток": [{"v60": 0}, {"Аэропресс": 0}]},
             {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
           ],
           "product_ids": {
-            "00": 106,
-            "01": 298,
-            "10": 299,
-            "11": 300
+            "0": 299,
+            "1": 300
           }
         },
         "filter_coffee": {
@@ -136,7 +149,7 @@
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050076/raff_ceuncu.jpg",
           "price": 210,
           "options": [
-            {"Вкус": [{"Ванильный": 0}, {"Банан": 0}, {"Солёная карамель": 0}, {"Цитрусовый": 0}]},
+            {"Вкус": [{"Ванильный": 0}, {"Банан": 0}, {"Солёная карамель": 0}]},
             {"Вид молока на выбор": [{"Коровье молоко": 0}, {"Овсяное молоко": 50}]},
             {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
           ],
@@ -152,11 +165,7 @@
             "200": 114,
             "201": 141,
             "210": 281,
-            "211": 282,
-            "300": 109,
-            "301": 142,
-            "310": 277,
-            "311": 278
+            "211": 282
           }
         },
         "green_tea": {
@@ -212,7 +221,7 @@
         },
         "cacao": {
           "name": "Какао",
-          "visible": true,
+          "visible": false,
           "description": "Топим шоколад",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591219678/new_cacao_wr7ern.jpg",
           "price": 220,
