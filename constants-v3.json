@@ -27,6 +27,11 @@
           "free_eligible": true
         },
         {
+          "name": "Холодные",
+          "items": ["ice_latte", "espresso_tonik", "cherry_filter", "creamy_peach"],
+          "free_eligible": true
+        },
+        {
           "name": "Десерты",
           "items": ["cinnamon_roll", "cherry_pie", "oatmeal_cookie", "chocolate_cookie", "croissant"],
           "free_eligible": false
@@ -79,6 +84,62 @@
           "product_ids": {
             "0": 299,
             "1": 300
+          }
+        },
+        "ice_latte": {
+          "name": "Айс Латте",
+          "visible": true,
+          "description": "Айс айс латте",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1592167434/photo_2_mn74s6.jpg",
+          "price": 170,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "0": 217,
+            "1": 218
+          }
+        },
+        "espresso_tonik": {
+          "name": "Эспрессо тоник",
+          "visible": true,
+          "description": "Эспрессо и швепс",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1592167434/photo_1_lde48z.jpg",
+          "price": 190,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "0": 358,
+            "1": 358
+          }
+        },
+        "cherry_filter": {
+          "name": "Фильтр с вишней",
+          "visible": true,
+          "description": "Фильтр и сок",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1592167429/photo_3_answqn.jpg",
+          "price": 190,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "0": 219,
+            "1": 220
+          }
+        },
+        "creamy_peach": {
+          "name": "Сливочный персик",
+          "visible": true,
+          "description": "Коктейльчик с персиком",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1592167429/photo_4_dcxp9l.jpg",
+          "price": 200,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "0": 221,
+            "1": 222
           }
         },
         "filter_coffee": {
