@@ -68,17 +68,20 @@
           }
         },
         "alternative": {
-          "name": "Аэропресс",
+          "name": "Альтернатива",
           "visible": true,
           "description": "Варим вручную",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591049508/americano_mppm02.jpg",
           "price": 200,
           "options": [
+            {"Выберите напиток": [{"v60": 0}, {"Аэропресс": 0}]},
             {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
           ],
           "product_ids": {
-            "0": 299,
-            "1": 300
+            "00": 106,
+            "01": 298,
+            "10": 299,
+            "11": 300
           }
         },
         "ice_latte": {
@@ -281,7 +284,7 @@
         },
         "cacao": {
           "name": "Какао",
-          "visible": false,
+          "visible": true,
           "description": "Топим шоколад",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591219678/new_cacao_wr7ern.jpg",
           "price": 220,
