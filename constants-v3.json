@@ -30,6 +30,11 @@
           "name": "Не кофе",
           "items": ["green_tea", "black_tea", "matcha", "cacao"],
           "free_eligible": true
+        },
+        {
+          "name": "Десерты",
+          "items": ["cinnamon_roll", "cherry_pie", "oatmeal_cookie", "chocolate_cookie", "croissant"],
+          "free_eligible": false
         }
       ],
       "menu_products": {
@@ -346,7 +351,7 @@
         },
         "oatmeal_cookie": {
           "name": "Овсяное печенье",
-          "visible": false,
+          "visible": true,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/oatmeal-cookie_ntppo3.jpg",
           "price": 50,
@@ -360,7 +365,7 @@
         },
         "chocolate_cookie": {
           "name": "Шоколадное печенье",
-          "visible": false,
+          "visible": true,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/chocolate-cookie_l732sz.jpg",
           "price": 60,
