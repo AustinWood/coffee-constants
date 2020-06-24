@@ -213,7 +213,7 @@
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050076/raff_ceuncu.jpg",
           "price": 210,
           "options": [
-            {"Вкус": [{"Ванильный": 0}, {"Банан": 0}, {"Цитрусовый": 0}]},
+            {"Вкус": [{"Ванильный": 0}, {"Банан": 0}, {"Солёная карамель": 0}, {"Цитрусовый": 0}]},
             {"Вид молока на выбор": [{"Коровье молоко": 0}, {"Овсяное молоко": 50}]},
             {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
           ],
@@ -226,10 +226,14 @@
             "101": 136,
             "110": 273,
             "111": 274,
-            "200": 109,
-            "201": 142,
-            "210": 277,
-            "211": 278
+            "200": 114,
+            "201": 141,
+            "210": 281,
+            "211": 282,
+            "300": 109,
+            "301": 142,
+            "310": 277,
+            "311": 278
           }
         },
         "green_tea": {
@@ -361,7 +365,7 @@
         },
         "chocolate_cookie": {
           "name": "Шоколадное печенье",
-          "visible": true,
+          "visible": false,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/chocolate-cookie_l732sz.jpg",
           "price": 60,
@@ -375,7 +379,7 @@
         },
         "croissant": {
           "name": "Круассан",
-          "visible": false,
+          "visible": true,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/croissant_ebmedj.jpg",
           "price": 70,
