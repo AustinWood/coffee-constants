@@ -30,11 +30,6 @@
           "name": "Не кофе",
           "items": ["green_tea", "black_tea", "matcha", "cacao"],
           "free_eligible": true
-        },
-        {
-          "name": "Десерты",
-          "items": ["cinnamon_roll", "cherry_pie", "oatmeal_cookie", "chocolate_cookie", "croissant"],
-          "free_eligible": false
         }
       ],
       "menu_products": {
