@@ -323,7 +323,7 @@
         },
         "cinnamon_roll": {
           "name": "Шведская булочка",
-          "visible": false,
+          "visible": true,
           "description": "Булочка с корицей",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/cinnamon_roll_kosydr.jpg",
           "price": 110,
@@ -337,7 +337,7 @@
         },
         "cherry_pie": {
           "name": "Вишнёвый пирог",
-          "visible": false,
+          "visible": true,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/cherry-pie_fiqd2h.jpg",
           "price": 165,
@@ -351,7 +351,7 @@
         },
         "oatmeal_cookie": {
           "name": "Овсяное печенье",
-          "visible": false,
+          "visible": true,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/oatmeal-cookie_ntppo3.jpg",
           "price": 50,
@@ -365,7 +365,7 @@
         },
         "chocolate_cookie": {
           "name": "Шоколадное печенье",
-          "visible": false,
+          "visible": true,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/chocolate-cookie_l732sz.jpg",
           "price": 60,
@@ -379,7 +379,7 @@
         },
         "croissant": {
           "name": "Круассан",
-          "visible": true,
+          "visible": false,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/croissant_ebmedj.jpg",
           "price": 70,
