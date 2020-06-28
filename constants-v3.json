@@ -22,6 +22,11 @@
           "free_eligible": true
         },
         {
+          "name": "Холодные",
+          "items": ["ice_latte", "espresso_tonik", "cherry_filter", "creamy_peach"],
+          "free_eligible": true
+        },
+        {
           "name": "Не кофе",
           "items": ["green_tea", "black_tea", "matcha", "cacao"],
           "free_eligible": true
@@ -100,7 +105,7 @@
         },
         "espresso_tonik": {
           "name": "Эспрессо тоник",
-          "visible": true,
+          "visible": false,
           "description": "Эспрессо и швепс",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1592167434/photo_1_lde48z.jpg",
           "price": 190,
@@ -332,7 +337,7 @@
         },
         "cherry_pie": {
           "name": "Вишнёвый пирог",
-          "visible": true,
+          "visible": false,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/cherry-pie_fiqd2h.jpg",
           "price": 165,
