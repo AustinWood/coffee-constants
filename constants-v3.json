@@ -74,7 +74,7 @@
         },
         "alternative": {
           "name": "Альтернатива",
-          "visible": false,
+          "visible": true,
           "description": "Варим вручную",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591049508/americano_mppm02.jpg",
           "price": 200,
@@ -105,7 +105,7 @@
         },
         "espresso_tonik": {
           "name": "Эспрессо тоник",
-          "visible": false,
+          "visible": true,
           "description": "Эспрессо и швепс",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1592167434/photo_1_lde48z.jpg",
           "price": 190,
