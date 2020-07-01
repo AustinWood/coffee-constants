@@ -74,7 +74,7 @@
         },
         "alternative": {
           "name": "Альтернатива",
-          "visible": false,
+          "visible": true,
           "description": "Варим вручную",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591049508/americano_mppm02.jpg",
           "price": 200,
