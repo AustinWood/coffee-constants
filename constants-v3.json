@@ -74,7 +74,7 @@
         },
         "alternative": {
           "name": "Альтернатива",
-          "visible": true,
+          "visible": false,
           "description": "Варим вручную",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591049508/americano_mppm02.jpg",
           "price": 200,
@@ -329,7 +329,7 @@
         },
         "cherry_pie": {
           "name": "Вишнёвый пирог",
-          "visible": false,
+          "visible": true,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/cherry-pie_fiqd2h.jpg",
           "price": 165,
