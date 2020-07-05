@@ -7,8 +7,7 @@
       "photo": "https://res.cloudinary.com/oblaka/image/upload/v1589716145/kofelosofiya_d2h2bj.jpg",
       "phone": "+79117526936",
       "hours": [
-        {"Пн-Пт": "09:00 - 21:00"},
-        {"Сб-Вс": "10:00 - 22:00"}
+        {"Пн-Вс": "10:00 - 21:00"}
       ],
       "menu_categories": [
         {
@@ -381,6 +380,34 @@
           "product_ids": {
             "0": 241,
             "1": 242
+          }
+        },
+        "casserole": {
+          "name": "Запеканка",
+          "visible": true,
+          "description": "",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1593944471/2020-07-05_12.28.31_w1zkxf.jpg",
+          "price": 130,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "0": 357,
+            "1": 357
+          }
+        },
+        "cheesecakes": {
+          "name": "Сырники",
+          "visible": false,
+          "description": "",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1593944471/2020-07-05_12.28.49_ia954t.jpg",
+          "price": 200,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "0": 290,
+            "1": 291
           }
         }
       }
