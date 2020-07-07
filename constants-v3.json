@@ -229,7 +229,7 @@
         },
         "green_tea": {
           "name": "Зеленый чай",
-          "visible": false,
+          "visible": true,
           "description": "Сенча",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050066/green_tea_b0zr5w.jpg",
           "price": 70,
@@ -246,7 +246,7 @@
         },
         "black_tea": {
           "name": "Черный чай",
-          "visible": false,
+          "visible": true,
           "description": "Ассам",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050032/black_tea_npyy2k.jpg",
           "price": 70,
