@@ -207,7 +207,7 @@
         },
          "raff": {
           "name": "Раф",
-          "visible": false,
+          "visible": true,
           "description": "Ван лав",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050076/raff_ceuncu.jpg",
           "price": 210,
