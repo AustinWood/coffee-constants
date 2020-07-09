@@ -388,7 +388,7 @@
         },
         "casserole": {
           "name": "Запеканка",
-          "visible": false,
+          "visible": true,
           "description": "",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1593944471/2020-07-05_12.28.31_w1zkxf.jpg",
           "price": 130,
