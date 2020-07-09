@@ -318,7 +318,7 @@
         },
         "cinnamon_roll": {
           "name": "Шведская булочка",
-          "visible": true,
+          "visible": false,
           "description": "Булочка с корицей",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/cinnamon_roll_kosydr.jpg",
           "price": 110,
