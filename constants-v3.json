@@ -332,7 +332,7 @@
         },
         "cherry_pie": {
           "name": "Вишнёвый пирог",
-          "visible": true,
+          "visible": false,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/cherry-pie_fiqd2h.jpg",
           "price": 165,
