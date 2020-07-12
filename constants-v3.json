@@ -351,7 +351,7 @@
         },
         "oatmeal_cookie": {
           "name": "Овсяное печенье",
-          "visible": false,
+          "visible": true,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/oatmeal-cookie_ntppo3.jpg",
           "price": 50,
