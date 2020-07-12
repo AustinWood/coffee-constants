@@ -1,4 +1,9 @@
 {
+  "state":
+  {
+    "last_version": "1.0.5",
+    "critical": true
+  },
   "cafes": [
     {
       "name": "Кофелософия",
