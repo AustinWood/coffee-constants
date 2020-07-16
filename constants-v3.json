@@ -1,9 +1,23 @@
 {
   "state":
     {
-      "last_version": 21,
-      "critical": true
+      "android": {
+        "version": {
+            "build": 21,
+            "critical": false,
+            "current": null,
+            "migration": null
+        }
     },
+    "ios": {
+        "version": {
+            "build": 21,
+            "critical": false,
+            "current": null,
+            "migration": null
+        }
+    }
+  },
   "cafes": [
     {
       "name": "Кофелософия",
