@@ -379,7 +379,7 @@
         },
         "chocolate_cookie": {
           "name": "Шоколадное печенье",
-          "visible": true,
+          "visible": false,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/chocolate-cookie_l732sz.jpg",
           "price": 60,
