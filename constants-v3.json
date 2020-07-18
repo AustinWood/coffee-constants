@@ -303,7 +303,7 @@
         },
         "cacao": {
           "name": "Какао",
-          "visible": true,
+          "visible": false,
           "description": "Топим шоколад",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591219678/new_cacao_wr7ern.jpg",
           "price": 220,
