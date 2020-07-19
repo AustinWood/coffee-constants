@@ -286,7 +286,7 @@
         },
         "matcha": {
           "name": "Маття латте",
-          "visible": false,
+          "visible": true,
           "description": "Да, это матча",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050110/matta_txsggm.jpg",
           "price": 170,
