@@ -355,7 +355,7 @@
         },
         "cherry_pie": {
           "name": "Вишнёвый пирог",
-          "visible": true,
+          "visible": false,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/cherry-pie_fiqd2h.jpg",
           "price": 165,
@@ -369,7 +369,7 @@
         },
         "oatmeal_cookie": {
           "name": "Овсяное печенье",
-          "visible": true,
+          "visible": false,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/oatmeal-cookie_ntppo3.jpg",
           "price": 50,
@@ -383,7 +383,7 @@
         },
         "chocolate_cookie": {
           "name": "Шоколадное печенье",
-          "visible": true,
+          "visible": false,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/chocolate-cookie_l732sz.jpg",
           "price": 60,
@@ -397,7 +397,7 @@
         },
         "croissant": {
           "name": "Круассан",
-          "visible": false,
+          "visible": true,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/croissant_ebmedj.jpg",
           "price": 70,
@@ -411,7 +411,7 @@
         },
         "casserole": {
           "name": "Запеканка",
-          "visible": true,
+          "visible": false,
           "description": "",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1593944471/2020-07-05_12.28.31_w1zkxf.jpg",
           "price": 130,
