@@ -21,6 +21,7 @@
   "cafes": [
     {
       "name": "Кофелософия",
+      "id": 0,
       "address": "Наб. Канала Грибоедова 106",
       "logo": "https://res.cloudinary.com/oblaka/image/upload/v1586851507/logo_kofelosofiya_yyiwvb.png",
       "photo": "https://res.cloudinary.com/oblaka/image/upload/v1589716145/kofelosofiya_d2h2bj.jpg",
@@ -59,6 +60,7 @@
         "espresso": {
           "name": "Эспрессо",
           "visible": true,
+          "free_eligible": true,
           "description": "Сахар - зло",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050042/espresso_val9pt.jpg",
           "price": 90,
@@ -76,6 +78,7 @@
         "americano": {
           "name": "Американо",
           "visible": true,
+          "free_eligible": true,
           "description": "Эспрессо + вода",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591049508/americano_mppm02.jpg",
           "price": 90,
@@ -93,6 +96,7 @@
         "alternative": {
           "name": "Альтернатива",
           "visible": true,
+          "free_eligible": true,
           "description": "Варим вручную",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591049508/americano_mppm02.jpg",
           "price": 200,
@@ -110,6 +114,7 @@
         "ice_latte": {
           "name": "Айс Латте",
           "visible": true,
+          "free_eligible": true,
           "description": "Айс айс латте",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1592167434/photo_2_mn74s6.jpg",
           "price": 170,
@@ -124,6 +129,7 @@
         "espresso_tonik": {
           "name": "Эспрессо тоник",
           "visible": true,
+          "free_eligible": true,
           "description": "Эспрессо и швепс",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1592167434/photo_1_lde48z.jpg",
           "price": 190,
@@ -138,6 +144,7 @@
         "cherry_filter": {
           "name": "Фильтр с вишней",
           "visible": true,
+          "free_eligible": true,
           "description": "Фильтр и сок",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1592167429/photo_3_answqn.jpg",
           "price": 190,
@@ -152,6 +159,7 @@
         "creamy_peach": {
           "name": "Сливочный персик",
           "visible": true,
+          "free_eligible": true,
           "description": "Коктейльчик с персиком",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1592167429/photo_4_dcxp9l.jpg",
           "price": 200,
@@ -166,6 +174,7 @@
         "filter_coffee": {
           "name": "Фильтр кофе",
           "visible": true,
+          "free_eligible": true,
           "description": "Как в кино",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591049285/filter_syvely.jpg",
           "price": 90,
@@ -188,6 +197,7 @@
         "cappuccino": {
           "name": "Капучино",
           "visible": true,
+          "free_eligible": true,
           "description": "Эспрессо с молоком",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050037/capu4ino_tljdd0.jpg",
           "price": 150,
@@ -210,6 +220,7 @@
         "latte": {
           "name": "Латте",
           "visible": true,
+          "free_eligible": true,
           "description": "Больше молока",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050037/capu4ino_tljdd0.jpg",
           "price": 170,
@@ -227,6 +238,7 @@
          "raff": {
           "name": "Раф",
           "visible": true,
+           "free_eligible": true,
           "description": "Ван лав",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050076/raff_ceuncu.jpg",
           "price": 210,
@@ -257,6 +269,7 @@
         "green_tea": {
           "name": "Зеленый чай",
           "visible": true,
+          "free_eligible": true,
           "description": "Сенча",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050066/green_tea_b0zr5w.jpg",
           "price": 70,
@@ -274,6 +287,7 @@
         "black_tea": {
           "name": "Черный чай",
           "visible": true,
+          "free_eligible": true,
           "description": "Ассам",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050032/black_tea_npyy2k.jpg",
           "price": 70,
@@ -291,6 +305,7 @@
         "matcha": {
           "name": "Маття латте",
           "visible": true,
+          "free_eligible": true,
           "description": "Да, это матча",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050110/matta_txsggm.jpg",
           "price": 170,
@@ -308,6 +323,7 @@
         "cacao": {
           "name": "Какао",
           "visible": true,
+          "free_eligible": true,
           "description": "Топим шоколад",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591219678/new_cacao_wr7ern.jpg",
           "price": 220,
@@ -325,6 +341,7 @@
         "flat": {
           "name": "Флэт уайт",
           "visible": true,
+          "free_eligible": true,
           "description": "Больше кофе",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050061/flat_chktqt.jpg",
           "price": 150,
@@ -342,6 +359,7 @@
         "cinnamon_roll": {
           "name": "Шведская булочка",
           "visible": true,
+          "free_eligible": true,
           "description": "Булочка с корицей",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/cinnamon_roll_kosydr.jpg",
           "price": 110,
@@ -356,6 +374,7 @@
         "cherry_pie": {
           "name": "Вишнёвый пирог",
           "visible": false,
+          "free_eligible": true,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/cherry-pie_fiqd2h.jpg",
           "price": 165,
@@ -370,6 +389,7 @@
         "oatmeal_cookie": {
           "name": "Овсяное печенье",
           "visible": false,
+          "free_eligible": true,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/oatmeal-cookie_ntppo3.jpg",
           "price": 50,
@@ -384,6 +404,7 @@
         "chocolate_cookie": {
           "name": "Шоколадное печенье",
           "visible": false,
+          "free_eligible": true,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/chocolate-cookie_l732sz.jpg",
           "price": 60,
@@ -398,6 +419,7 @@
         "croissant": {
           "name": "Круассан",
           "visible": true,
+          "free_eligible": true,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/croissant_ebmedj.jpg",
           "price": 70,
@@ -412,6 +434,7 @@
         "casserole": {
           "name": "Запеканка",
           "visible": false,
+          "free_eligible": true,
           "description": "",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1593944471/2020-07-05_12.28.31_w1zkxf.jpg",
           "price": 130,
@@ -426,6 +449,7 @@
         "cheesecakes": {
           "name": "Сырники",
           "visible": true,
+          "free_eligible": true,
           "description": "",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1593944471/2020-07-05_12.28.49_ia954t.jpg",
           "price": 200,
