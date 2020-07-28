@@ -403,7 +403,7 @@
         },
         "chocolate_cookie": {
           "name": "Шоколадное печенье",
-          "visible": false,
+          "visible": true,
           "free_eligible": false,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/chocolate-cookie_l732sz.jpg",
@@ -433,7 +433,7 @@
         },
         "casserole": {
           "name": "Запеканка",
-          "visible": true,
+          "visible": false,
           "free_eligible": false,
           "description": "",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1593944471/2020-07-05_12.28.31_w1zkxf.jpg",
@@ -448,7 +448,7 @@
         },
         "cheesecakes": {
           "name": "Сырники",
-          "visible": true,
+          "visible": false,
           "free_eligible": false,
           "description": "",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1593944471/2020-07-05_12.28.49_ia954t.jpg",
