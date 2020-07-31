@@ -57,7 +57,7 @@
         },
         {
           "name": "Зерно",
-          "items": ["insultan", "insultan2"],
+          "items": ["insultan", "insultan2", "insultan3"],
           "free_eligible": false
         }
       ],
