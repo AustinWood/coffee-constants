@@ -54,6 +54,11 @@
           "name": "Десерты",
           "items": ["cinnamon_roll", "cherry_pie", "cheesecakes", "oatmeal_cookie", "casserole", "chocolate_cookie", "croissant"],
           "free_eligible": false
+        },
+        {
+          "name": "Зерно",
+          "items": ["insultan"],
+          "free_eligible": false
         }
       ],
       "menu_products": {
@@ -455,6 +460,30 @@
           "price": 200,
           "options": [
             {"Добавка": [{"Без добавок": 0}, {"Сметана": 30}, {"Сгущенка": 30}, {"Соленая карамель": 30}, {"Клубничное варенье": 30}]},
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 290,
+            "01": 291,
+            "10": 372,
+            "11": 372,
+            "20": 374,
+            "21": 374,
+            "30": 375,
+            "31": 375,
+            "40": 373,
+            "41": 373
+          }
+        },
+        "insultan": {
+          "name": "Капсулы Мексика Иксуатлан",
+          "visible": true,
+          "free_eligible": false,
+          "description": "Сбор урожая: Февраль 2018",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1593944471/2020-07-05_12.28.49_ia954t.jpg",
+          "price": 200,
+          "options": [
+            {"Разновидность Марсельеза\nРегион Веракруз": [{"Молотый": 0}, {"Зерно": 0}]},
             {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
           ],
           "product_ids": {
