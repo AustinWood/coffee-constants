@@ -57,7 +57,7 @@
         },
         {
           "name": "Зерно",
-          "items": ["efiop"],
+          "items": ["mexi"],
           "free_eligible": false
         }
       ],
@@ -654,7 +654,7 @@
             {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
           ],
           "product_ids": {
-            "00": 290
+            "00": 376
           }
         }
       }
