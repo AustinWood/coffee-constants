@@ -54,6 +54,11 @@
           "name": "Десерты",
           "items": ["cinnamon_roll", "cherry_pie", "cheesecakes", "oatmeal_cookie", "casserole", "chocolate_cookie", "croissant"],
           "free_eligible": false
+        },
+        {
+          "name": "Зерно",
+          "items": ["efiop"],
+          "free_eligible": false
         }
       ],
       "menu_products": {
@@ -477,6 +482,170 @@
           "description": "Черный чай, дыня и цветочные ноты",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596237204/ethiopia_acaccia_etk8d7.jpg",
           "price": 648,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 95
+          }
+        },
+        "nikarag": {
+          "name": "Никарагуа Дивина Провиденциа\nОбработка: мытая\nСбор урожая: январь — март 2019 \nРазновидность: Caturra\nРегион: Nuevo Segovia, Ocotal \nСтанция обработки: Divina Providencia \nВес: 250 г",
+          "visible": true,
+          "free_eligible": false,
+          "description": "Ананас, молочный шоколад, апельсин, персик",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596238127/divina_qbo9yt.jpg",
+          "price": 580,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 290
+          },
+        "kenia": {
+          "name": "Кения ПБ Мукима\nОбработка: мытая\nСбор урожая: 2019\nРазновидность: SL28, SL34, Ruiru 11\nРегион: Mount Kenya\nСтанция обработки: Mount Kenya\nПроизводитель: Jorsa \nВес: 250 г",
+          "visible": true,
+          "free_eligible": false,
+          "description": "Красная смородина, черный чай и молочный шоколад",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596238468/kenya_pb_w3ykdc.jpg",
+          "price": 675,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 290
+          },
+        "gvate": {
+          "name": "Гватемала Декаф (без кофеина)\nОбработка: Декаф\nУрожай: 2019\nВес: 250 г",
+          "visible": true,
+          "free_eligible": false,
+          "description": "Для фильтра и эспрессо ",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596238615/%D0%B3%D0%B2%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D0%BB%D0%B0_%D0%B4%D0%B5%D0%BA%D0%B0%D1%84_ug6mti.png",
+          "price": 600,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 290
+          },
+        "efio": {
+          "name": "Эфиопия Гуджи Урага из бочки\nРазновидность: типики\nРегион: Сидамо, зона Гуджи\nСбор урожая: Декабрь 2018\nСпособ обработки: Натуральная\nЭкспериментальная постферментация\nВес: 250 г",
+          "visible": true,
+          "free_eligible": false,
+          "description": "Для фильтра",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596282895/efio_dx9vgq.png",
+          "price": 765,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 290
+          },
+        "javagold": {
+          "name": "Ява Золотая\nРазновидность: Сигарар Утанг\nРегион: Сунда\nСбор урожая: Сентябрь 2019\nСпособ обработки: Натуральный\nЛакто-анаэробная ферментация \nВес: 250 г",
+          "visible": true,
+          "free_eligible": false,
+          "description": "Для фильтра",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596283187/java_zolotaya_250g_amg4yq.png",
+          "price": 640,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 290
+          }
+        },
+        "uganda": {
+          "name": "Уганда Бузи Черри\nРазновидность: SL-28, 14, 34\nРегион: Западная Уганда\nСбор урожая: Август-сентябрь 2019\nСпособ обработки: натуральный, экспериментальный\nВес: 250",
+          "visible": true,
+          "free_eligible": false,
+          "description": "Для фильтра",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596283221/uganda-buzi-cherri-250-zh-2_min_qbsnmi.png",
+          "price": 495,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 290
+          }
+        },
+        "infone": {
+          "name": "Индонезия Фринса Лактик\nРазновидность :Сигарар Утанг\nРегион: Сунда\nСбор урожая: Сентябрь 2019\nСпособ обработки: Натуральный\nЛакто ферментация \nВес: 250 г",
+          "visible": true,
+          "free_eligible": false,
+          "description": "Для фильтра",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596283340/indonesya_franca_laktik_250_grbv6f.png",
+          "price": 575,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 290
+          }
+        },
+        "brasi": {
+          "name": "Бразилия Иван Прадо Де Мело\nРазновидность: Красный Катуаи\nРегион: Кампо Дас Вертентас\nСбор урожая: Август 2019\nСпособ обработки: Натуральный\nCушка на патио 12 дней \nВес 250 г",
+          "visible": true,
+          "free_eligible": false,
+          "description": "Для фильтра",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596284170/brazylia_ivan_prado_de_melo_250_pdw5b5.png",
+          "price": 510,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 290
+          }
+        },
+        "salvad": {
+          "name": "Сальвадор Кафескал Капсулы\nшоколад, карамель, орех \nРазновидность: Caturra, Catimor \nРегион: San Ana, Ochupse\nСбор урожая: 2019 \nОбработка: мытая\nФермер: Mauricio Escalon \nКоличество : 10 шт",
+          "visible": true,
+          "free_eligible": false,
+          "description": "Для машин Nespresso ",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596284336/dalva_hjiugh.jpg",
+          "price": 405,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 290
+          }
+        },
+        "nika": {
+          "name": "Никарагуа Дивина Провиденциа Капсулы\nананас, молочный шоколад, апельсин, персик \nРазновидность: Caturra\nРегион: Nuevo Segovia, Ocotal\nСбор урожая: январь — март 2019 \nОбработка: мытая\nСтанция обработки: Divina Providencia \nКоличество : 10 шт",
+          "visible": true,
+          "free_eligible": false,
+          "description": "Для машин Nespresso",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596284615/__xm36hq.jpg",
+          "price": 405,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 290
+          }
+        },
+        "ifeop": {
+          "name": "Эфиопия Гуджи Урага Капсулы\nРазновидность: Местные разновидности типики\nРегион: Сидамо, зона Гуджи\nСбор урожая: Декабрь 2018\nСпособ обработки: Мытый\nCушка на кроватях 14 дней\nОбжарка: Эспрессо\nКоличество : 10 шт",
+          "visible": true,
+          "free_eligible": false,
+          "description": "Для машин Nespresso",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596284504/ephiopiya-guji-espresso-front_min_lasucl.png",
+          "price": 380,
+          "options": [
+            {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
+          ],
+          "product_ids": {
+            "00": 290
+          }
+        },
+        "mexi": {
+          "name": "Мексика Иксуатла Капсулы\nРазновидность: Марсельеза\nРегион: Веракруз\nСбор урожая: Февраль 2018\nСпособ обработки: Натуральный\nВыдержка: В бочках\nОбжарка: Под молочко\nКоличество : 10 шт",
+          "visible": true,
+          "free_eligible": false,
+          "description": "Для машин Nespresso",
+          "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596282784/ixuatlan_ejrzlj.png",
+          "price": 400,
           "options": [
             {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
           ],
