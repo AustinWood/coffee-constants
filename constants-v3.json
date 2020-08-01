@@ -54,11 +54,6 @@
           "name": "Десерты",
           "items": ["cinnamon_roll", "cherry_pie", "cheesecakes", "oatmeal_cookie", "casserole", "chocolate_cookie", "croissant"],
           "free_eligible": false
-        },
-        {
-          "name": "Зерно",
-          "items": ["efiop"],
-          "free_eligible": false
         }
       ],
       "menu_products": {
