@@ -378,7 +378,7 @@
         },
         "cherry_pie": {
           "name": "Вишнёвый пирог",
-          "visible": true,
+          "visible": false,
           "free_eligible": false,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/cherry-pie_fiqd2h.jpg",
@@ -393,7 +393,7 @@
         },
         "oatmeal_cookie": {
           "name": "Овсяное печенье",
-          "visible": true,
+          "visible": false,
           "free_eligible": false,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/oatmeal-cookie_ntppo3.jpg",
@@ -408,7 +408,7 @@
         },
         "chocolate_cookie": {
           "name": "Шоколадное печенье",
-          "visible": true,
+          "visible": false,
           "free_eligible": false,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/chocolate-cookie_l732sz.jpg",
