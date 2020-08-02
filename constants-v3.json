@@ -507,7 +507,7 @@
         },
         "kenia": {
           "name": "Кения ПБ Мукима\nОбработка: мытая\nСбор урожая: 2019\nРазновидность: SL28, SL34, Ruiru 11\nРегион: Mount Kenya\nСтанция обработки: Mount Kenya\nПроизводитель: Jorsa \nВес: 250 г",
-          "visible": true,
+          "visible": false,
           "free_eligible": false,
           "description": "Красная смородина, черный чай и молочный шоколад",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596238468/kenya_pb_w3ykdc.jpg",
