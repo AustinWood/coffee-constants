@@ -31,6 +31,11 @@
       ],
       "menu_categories": [
         {
+          "name": "Зерно",
+          "items": ["mexi", "ifeop", "nika", "salvad", "brasi", "infone", "uganda", "javagold", "efio", "gvate", "kenia", "nikarag", "efiop"],
+          "free_eligible": false
+        },
+        {
           "name": "Черный",
           "items": ["espresso", "americano", "filter_coffee", "alternative"],
           "free_eligible": true
@@ -53,11 +58,6 @@
         {
           "name": "Десерты",
           "items": ["cinnamon_roll", "cherry_pie", "cheesecakes", "oatmeal_cookie", "casserole", "chocolate_cookie", "croissant"],
-          "free_eligible": false
-        },
-        {
-          "name": "Зерно",
-          "items": ["mexi", "ifeop", "nika", "salvad", "brasi", "infone", "uganda", "javagold", "efio", "gvate", "kenia", "nikarag", "efiop"],
           "free_eligible": false
         }
       ],
@@ -566,7 +566,7 @@
           }
         },
         "uganda": {
-          "name": "Уганда Бузи Черри\nРазновидность: SL-28, 14, 34\nРегион: Западная Уганда\nСбор урожая: Август-сентябрь 2019\nСпособ обработки: натуральный, экспериментальный\nВес: 250",
+          "name": "Уганда Бузи Черри            \nРазновидность: SL-28, 14, 34\nРегион: Западная Уганда\nСбор урожая: Август-сентябрь 2019\nСпособ обработки: натуральный, экспериментальный\nВес: 250",
           "visible": true,
           "free_eligible": false,
           "description": "Для фильтра",
