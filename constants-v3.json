@@ -459,25 +459,21 @@
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1593944471/2020-07-05_12.28.49_ia954t.jpg",
           "price": 200,
           "options": [
-            {"Добавка": [{"Без добавок": 0}, {"Сметана": 30}, {"Сгущенка": 30}, {"Соленая карамель": 30}, {"Клубничное варенье": 30}]},
+            {"Добавка": [{"Без добавок": 0}, {"Соленая карамель": 30}, {"Клубничное варенье": 30}]},
             {"Takeout": [{"Здесь": 0}, {"С собой": 0}]}
           ],
           "product_ids": {
             "00": 290,
             "01": 291,
-            "10": 372,
-            "11": 372,
-            "20": 374,
-            "21": 374,
-            "30": 375,
-            "31": 375,
-            "40": 373,
-            "41": 373
+            "10": 375,
+            "11": 375,
+            "20": 373,
+            "21": 373
           }
         },
         "efiop": {
           "name": "Эфиопия Сидамо Акация\nОбработка: мытая\nСбор урожая: ноябрь — март 2019 \nРазновидность: Куруме, Дега, Волишо \nРегион: Сидамо\nСтанция обработки: мелкие фермерские хозяйства\nПроизводитель: мелкие фермеры\nВес 250 г",
-          "visible": true,
+          "visible": false,
           "free_eligible": false,
           "description": "Черный чай, дыня и цветочные ноты",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596237204/ethiopia_acaccia_etk8d7.jpg",
@@ -507,7 +503,7 @@
         },
         "kenia": {
           "name": "Кения ПБ Мукима, разновидность: SL28, SL34, Ruiru 11\nОбработка: мытая\nСбор урожая: 2019\nРегион: Mount Kenya\nСтанция обработки: Mount Kenya\nПроизводитель: Jorsa \nВес: 250 г",
-          "visible": true,
+          "visible": false,
           "free_eligible": false,
           "description": "Красная смородина, черный чай и молочный шоколад",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596238468/kenya_pb_w3ykdc.jpg",
@@ -552,7 +548,7 @@
         },
         "javagold": {
           "name": "Ява Золотая, разновидность: Сигарар Утанг\nРегион: Сунда\nСбор урожая: Сентябрь 2019\nСпособ обработки: Натуральный\nЛакто-анаэробная ферментация \nВес: 250 г",
-          "visible": true,
+          "visible": false,
           "free_eligible": false,
           "description": "Для фильтра",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596283187/java_zolotaya_250g_amg4yq.png",
@@ -567,7 +563,7 @@
         },
         "uganda": {
           "name": "Уганда Бузи Черри, разновидность: SL-28, 14, 34\nРегион: Западная Уганда\nСбор урожая: Август-сентябрь 2019\nСпособ обработки: натуральный, экспериментальный\nВес: 250",
-          "visible": true,
+          "visible": false,
           "free_eligible": false,
           "description": "Для фильтра",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596283221/uganda-buzi-cherri-250-zh-2_min_qbsnmi.png",
@@ -627,7 +623,7 @@
         },
         "nika": {
           "name": "Никарагуа Дивина Провиденциа Капсулы\nананас, молочный шоколад, апельсин, персик \nРазновидность: Caturra\nРегион: Nuevo Segovia, Ocotal\nСбор урожая: январь — март 2019 \nОбработка: мытая\nСтанция обработки: Divina Providencia \nКоличество : 10 шт",
-          "visible": true,
+          "visible": false,
           "free_eligible": false,
           "description": "Для машин Nespresso",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596284615/__xm36hq.jpg",
@@ -642,7 +638,7 @@
         },
         "ifeop": {
           "name": "Эфиопия Гуджи Урага Капсулы\nРазновидность: Местные разновидности типики\nРегион: Сидамо, зона Гуджи\nСбор урожая: Декабрь 2018\nСпособ обработки: Мытый\nCушка на кроватях 14 дней\nОбжарка: Эспрессо\nКоличество : 10 шт",
-          "visible": true,
+          "visible": false,
           "free_eligible": false,
           "description": "Для машин Nespresso",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596284504/ephiopiya-guji-espresso-front_min_lasucl.png",
