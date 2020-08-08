@@ -25,43 +25,36 @@
       "logo": "https://res.cloudinary.com/oblaka/image/upload/v1586851507/logo_kofelosofiya_yyiwvb.png",
       "photo": "https://res.cloudinary.com/oblaka/image/upload/v1589716145/kofelosofiya_d2h2bj.jpg",
       "phone": "+79117526936",
-      "id": 0,
       "hours": [
         {"Пн-Вс": "10:00 - 21:00"}
       ],
       "menu_categories": [
         {
-          "id": 0,
           "name": "Зерно",
           "items": ["mexi", "ifeop", "nika", "salvad", "brasi", "infone", "uganda", "javagold", "efio", "gvate", "kenia", "nikarag", "efiop"],
           "free_eligible": false
         },
         {
-          "id": 1,
           "name": "Черный",
           "items": ["espresso", "americano", "filter_coffee", "alternative"],
           "free_eligible": true
         },
         {
-          "id": 2,
           "name": "С молоком",
           "items": ["cappuccino", "latte", "raff", "flat"],
           "free_eligible": true
         },
         {
-          "id": 3,
           "name": "Холодные",
           "items": ["ice_latte", "espresso_tonik", "cherry_filter", "creamy_peach"],
           "free_eligible": true
         },
         {
-          "id": 4,
           "name": "Не кофе",
           "items": ["green_tea", "black_tea", "matcha", "cacao"],
           "free_eligible": true
         },
         {
-          "id": 5,
           "name": "Десерты",
           "items": ["cinnamon_roll", "cherry_pie", "cheesecakes", "oatmeal_cookie", "casserole", "chocolate_cookie", "croissant"],
           "free_eligible": false
