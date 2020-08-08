@@ -21,41 +21,47 @@
   "cafes": [
     {
       "name": "Кофелософия",
-      "id": 0,
       "address": "Наб. Канала Грибоедова 106",
       "logo": "https://res.cloudinary.com/oblaka/image/upload/v1586851507/logo_kofelosofiya_yyiwvb.png",
       "photo": "https://res.cloudinary.com/oblaka/image/upload/v1589716145/kofelosofiya_d2h2bj.jpg",
       "phone": "+79117526936",
+      "id": 0,
       "hours": [
         {"Пн-Вс": "10:00 - 21:00"}
       ],
       "menu_categories": [
         {
+          "id": 0,
           "name": "Зерно",
           "items": ["mexi", "ifeop", "nika", "salvad", "brasi", "infone", "uganda", "javagold", "efio", "gvate", "kenia", "nikarag", "efiop"],
           "free_eligible": false
         },
         {
+          "id": 1,
           "name": "Черный",
           "items": ["espresso", "americano", "filter_coffee", "alternative"],
           "free_eligible": true
         },
         {
+          "id": 2,
           "name": "С молоком",
           "items": ["cappuccino", "latte", "raff", "flat"],
           "free_eligible": true
         },
         {
+          "id": 3,
           "name": "Холодные",
           "items": ["ice_latte", "espresso_tonik", "cherry_filter", "creamy_peach"],
           "free_eligible": true
         },
         {
+          "id": 4,
           "name": "Не кофе",
           "items": ["green_tea", "black_tea", "matcha", "cacao"],
           "free_eligible": true
         },
         {
+          "id": 5,
           "name": "Десерты",
           "items": ["cinnamon_roll", "cherry_pie", "cheesecakes", "oatmeal_cookie", "casserole", "chocolate_cookie", "croissant"],
           "free_eligible": false
@@ -63,6 +69,7 @@
       ],
       "menu_products": {
         "espresso": {
+          "id": 0,
           "name": "Эспрессо",
           "visible": true,
           "free_eligible": true,
@@ -81,6 +88,7 @@
           }
         },
         "americano": {
+          "id": 1,
           "name": "Американо",
           "visible": true,
           "free_eligible": true,
@@ -99,6 +107,7 @@
           }
         },
         "alternative": {
+          "id": 2,
           "name": "Альтернатива",
           "visible": true,
           "free_eligible": true,
@@ -117,6 +126,7 @@
           }
         },
         "ice_latte": {
+          "id": 3,
           "name": "Айс Латте",
           "visible": true,
           "free_eligible": true,
@@ -132,6 +142,7 @@
           }
         },
         "espresso_tonik": {
+          "id": 4,
           "name": "Эспрессо тоник",
           "visible": true,
           "free_eligible": true,
@@ -147,6 +158,7 @@
           }
         },
         "cherry_filter": {
+          "id": 5,
           "name": "Фильтр с вишней",
           "visible": true,
           "free_eligible": true,
@@ -162,6 +174,7 @@
           }
         },
         "creamy_peach": {
+          "id": 6,
           "name": "Сливочный персик",
           "visible": true,
           "free_eligible": true,
@@ -177,6 +190,7 @@
           }
         },
         "filter_coffee": {
+          "id": 7,
           "name": "Фильтр кофе",
           "visible": true,
           "free_eligible": true,
@@ -200,6 +214,7 @@
           }
         },
         "cappuccino": {
+          "id": 8,
           "name": "Капучино",
           "visible": true,
           "free_eligible": true,
@@ -223,6 +238,7 @@
           }
         },
         "latte": {
+          "id": 9,
           "name": "Латте",
           "visible": true,
           "free_eligible": true,
@@ -241,6 +257,7 @@
           }
         },
          "raff": {
+           "id": 10,
           "name": "Раф",
           "visible": true,
            "free_eligible": true,
@@ -272,6 +289,7 @@
           }
         },
         "green_tea": {
+          "id": 11,
           "name": "Зеленый чай",
           "visible": true,
           "free_eligible": true,
@@ -290,6 +308,7 @@
           }
         },
         "black_tea": {
+          "id": 12,
           "name": "Черный чай",
           "visible": true,
           "free_eligible": true,
@@ -308,6 +327,7 @@
           }
         },
         "matcha": {
+          "id": 13,
           "name": "Маття латте",
           "visible": true,
           "free_eligible": true,
@@ -326,6 +346,7 @@
           }
         },
         "cacao": {
+          "id": 14,
           "name": "Какао",
           "visible": true,
           "free_eligible": true,
@@ -344,6 +365,7 @@
           }
         },
         "flat": {
+          "id": 15,
           "name": "Флэт уайт",
           "visible": true,
           "free_eligible": true,
@@ -362,6 +384,7 @@
           }
         },
         "cinnamon_roll": {
+          "id": 16,
           "name": "Шведская булочка",
           "visible": true,
           "free_eligible": false,
@@ -377,6 +400,7 @@
           }
         },
         "cherry_pie": {
+          "id": 17,
           "name": "Вишнёвый пирог",
           "visible": true,
           "free_eligible": false,
@@ -392,6 +416,7 @@
           }
         },
         "oatmeal_cookie": {
+          "id": 18,
           "name": "Овсяное печенье",
           "visible": false,
           "free_eligible": false,
@@ -407,6 +432,7 @@
           }
         },
         "chocolate_cookie": {
+          "id": 19,
           "name": "Шоколадное печенье",
           "visible": true,
           "free_eligible": false,
@@ -422,6 +448,7 @@
           }
         },
         "croissant": {
+          "id": 20,
           "name": "Круассан",
           "visible": false,
           "free_eligible": false,
@@ -437,6 +464,7 @@
           }
         },
         "casserole": {
+          "id": 21,
           "name": "Запеканка",
           "visible": true,
           "free_eligible": false,
@@ -452,6 +480,7 @@
           }
         },
         "cheesecakes": {
+          "id": 22,
           "name": "Сырники",
           "visible": true,
           "free_eligible": false,
@@ -474,6 +503,7 @@
           }
         },
         "efiop": {
+          "id": 23,
           "name": "Эфиопия Сидамо Акация\nОбработка: мытая\nСбор урожая: ноябрь — март 2019 \nРазновидность: Куруме, Дега, Волишо \nРегион: Сидамо\nСтанция обработки: мелкие фермерские хозяйства\nПроизводитель: мелкие фермеры\nВес 250 г",
           "visible": false,
           "free_eligible": false,
@@ -489,6 +519,7 @@
           }
         },
         "nikarag": {
+          "id": 24,
           "name": "Никарагуа Дивина Провиденциа\nОбработка: мытая\nСбор урожая: январь — март 2019 \nРазновидность: Caturra\nРегион: Nuevo Segovia, Ocotal \nСтанция обработки: Divina Providencia \nВес: 250 г",
           "visible": true,
           "free_eligible": false,
@@ -504,6 +535,7 @@
           }
         },
         "kenia": {
+          "id": 25,
           "name": "Кения ПБ Мукима, разновидность: SL28, SL34, Ruiru 11\nОбработка: мытая\nСбор урожая: 2019\nРегион: Mount Kenya\nСтанция обработки: Mount Kenya\nПроизводитель: Jorsa \nВес: 250 г",
           "visible": false,
           "free_eligible": false,
@@ -519,6 +551,7 @@
           }
         },
         "gvate": {
+          "id": 26,
           "name": "Гватемала Декаф (без кофеина)\nОбработка: Декаф\nУрожай: 2019\nВес: 250 г",
           "visible": true,
           "free_eligible": false,
@@ -534,6 +567,7 @@
           }
         },
         "efio": {
+          "id": 27,
           "name": "Эфиопия Гуджи Урага из бочки\nРазновидность: типики\nРегион: Сидамо, зона Гуджи\nСбор урожая: Декабрь 2018\nСпособ обработки: Натуральная\nЭкспериментальная постферментация\nВес: 250 г",
           "visible": true,
           "free_eligible": false,
@@ -549,6 +583,7 @@
           }
         },
         "javagold": {
+          "id": 28,
           "name": "Ява Золотая, разновидность: Сигарар Утанг\nРегион: Сунда\nСбор урожая: Сентябрь 2019\nСпособ обработки: Натуральный\nЛакто-анаэробная ферментация \nВес: 250 г",
           "visible": false,
           "free_eligible": false,
@@ -564,6 +599,7 @@
           }
         },
         "uganda": {
+          "id": 29,
           "name": "Уганда Бузи Черри, разновидность: SL-28, 14, 34\nРегион: Западная Уганда\nСбор урожая: Август-сентябрь 2019\nСпособ обработки: натуральный, экспериментальный\nВес: 250",
           "visible": false,
           "free_eligible": false,
@@ -579,6 +615,7 @@
           }
         },
         "infone": {
+          "id": 30,
           "name": "Индонезия Фринса Лактик\nРазновидность :Сигарар Утанг\nРегион: Сунда\nСбор урожая: Сентябрь 2019\nСпособ обработки: Натуральный\nЛакто ферментация \nВес: 250 г",
           "visible": true,
           "free_eligible": false,
@@ -594,6 +631,7 @@
           }
         },
         "brasi": {
+          "id": 31,
           "name": "Бразилия Иван Прадо Де Мело\nРазновидность: Красный Катуаи\nРегион: Кампо Дас Вертентас\nСбор урожая: Август 2019\nСпособ обработки: Натуральный\nCушка на патио 12 дней \nВес 250 г",
           "visible": true,
           "free_eligible": false,
@@ -609,6 +647,7 @@
           }
         },
         "salvad": {
+          "id": 32,
           "name": "Сальвадор Кафескал Капсулы\nшоколад, карамель, орех \nРазновидность: Caturra, Catimor \nРегион: San Ana, Ochupse\nСбор урожая: 2019 \nОбработка: мытая\nФермер: Mauricio Escalon \nКоличество : 10 шт",
           "visible": true,
           "free_eligible": false,
@@ -624,6 +663,7 @@
           }
         },
         "nika": {
+          "id": 33,
           "name": "Никарагуа Дивина Провиденциа Капсулы\nананас, молочный шоколад, апельсин, персик \nРазновидность: Caturra\nРегион: Nuevo Segovia, Ocotal\nСбор урожая: январь — март 2019 \nОбработка: мытая\nСтанция обработки: Divina Providencia \nКоличество : 10 шт",
           "visible": false,
           "free_eligible": false,
@@ -639,6 +679,7 @@
           }
         },
         "ifeop": {
+          "id": 34,
           "name": "Эфиопия Гуджи Урага Капсулы\nРазновидность: Местные разновидности типики\nРегион: Сидамо, зона Гуджи\nСбор урожая: Декабрь 2018\nСпособ обработки: Мытый\nCушка на кроватях 14 дней\nОбжарка: Эспрессо\nКоличество : 10 шт",
           "visible": false,
           "free_eligible": false,
@@ -654,6 +695,7 @@
           }
         },
         "mexi": {
+          "id": 35,
           "name": "Мексика Иксуатла Капсулы\nРазновидность: Марсельеза\nРегион: Веракруз\nСбор урожая: Февраль 2018\nСпособ обработки: Натуральный\nВыдержка: В бочках\nОбжарка: Под молочко\nКоличество : 10 шт",
           "visible": true,
           "free_eligible": false,
