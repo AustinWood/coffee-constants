@@ -20,12 +20,12 @@
   },
   "cafes": [
     {
-      "id": 0,
       "name": "Кофелософия",
       "address": "Наб. Канала Грибоедова 106",
       "logo": "https://res.cloudinary.com/oblaka/image/upload/v1586851507/logo_kofelosofiya_yyiwvb.png",
       "photo": "https://res.cloudinary.com/oblaka/image/upload/v1589716145/kofelosofiya_d2h2bj.jpg",
       "phone": "+79117526936",
+      "id": 0,
       "hours": [
         {"Пн-Вс": "10:00 - 21:00"}
       ],
