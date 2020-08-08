@@ -363,7 +363,7 @@
         },
         "cinnamon_roll": {
           "name": "Шведская булочка",
-          "visible": false,
+          "visible": true,
           "free_eligible": false,
           "description": "Булочка с корицей",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/cinnamon_roll_kosydr.jpg",
@@ -378,7 +378,7 @@
         },
         "cherry_pie": {
           "name": "Вишнёвый пирог",
-          "visible": false,
+          "visible": true,
           "free_eligible": false,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/cherry-pie_fiqd2h.jpg",
@@ -408,7 +408,7 @@
         },
         "chocolate_cookie": {
           "name": "Шоколадное печенье",
-          "visible": false,
+          "visible": true,
           "free_eligible": false,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/chocolate-cookie_l732sz.jpg",
@@ -423,7 +423,7 @@
         },
         "croissant": {
           "name": "Круассан",
-          "visible": true,
+          "visible": false,
           "free_eligible": false,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/croissant_ebmedj.jpg",
