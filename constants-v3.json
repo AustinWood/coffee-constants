@@ -103,7 +103,7 @@
         "alternative": {
           "id": 2,
           "name": "Альтернатива",
-          "visible": true,
+          "visible": false,
           "free_eligible": true,
           "description": "Варим вручную",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591049508/americano_mppm02.jpg",
@@ -396,7 +396,7 @@
         "cherry_pie": {
           "id": 17,
           "name": "Вишнёвый пирог",
-          "visible": true,
+          "visible": false,
           "free_eligible": false,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/cherry-pie_fiqd2h.jpg",
@@ -412,7 +412,7 @@
         "oatmeal_cookie": {
           "id": 18,
           "name": "Овсяное печенье",
-          "visible": false,
+          "visible": true,
           "free_eligible": false,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/oatmeal-cookie_ntppo3.jpg",
