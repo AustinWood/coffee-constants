@@ -71,7 +71,7 @@
         "espresso": {
           "id": 0,
           "name": "Эспрессо",
-          "visible": true,
+          "visible": false,
           "free_eligible": true,
           "description": "Сахар - зло",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050042/espresso_val9pt.jpg",
@@ -90,7 +90,7 @@
         "americano": {
           "id": 1,
           "name": "Американо",
-          "visible": true,
+          "visible": false,
           "free_eligible": true,
           "description": "Эспрессо + вода",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591049508/americano_mppm02.jpg",
@@ -128,7 +128,7 @@
         "ice_latte": {
           "id": 3,
           "name": "Айс Латте",
-          "visible": true,
+          "visible": false,
           "free_eligible": true,
           "description": "Айс айс латте",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1592167434/photo_2_mn74s6.jpg",
@@ -144,7 +144,7 @@
         "espresso_tonik": {
           "id": 4,
           "name": "Эспрессо тоник",
-          "visible": true,
+          "visible": false,
           "free_eligible": true,
           "description": "Эспрессо и швепс",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1592167434/photo_1_lde48z.jpg",
@@ -160,7 +160,7 @@
         "cherry_filter": {
           "id": 5,
           "name": "Фильтр с вишней",
-          "visible": true,
+          "visible": false,
           "free_eligible": true,
           "description": "Фильтр и сок",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1592167429/photo_3_answqn.jpg",
@@ -176,7 +176,7 @@
         "creamy_peach": {
           "id": 6,
           "name": "Сливочный персик",
-          "visible": true,
+          "visible": false,
           "free_eligible": true,
           "description": "Коктейльчик с персиком",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1592167429/photo_4_dcxp9l.jpg",
@@ -192,7 +192,7 @@
         "filter_coffee": {
           "id": 7,
           "name": "Фильтр кофе",
-          "visible": true,
+          "visible": false,
           "free_eligible": true,
           "description": "Как в кино",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591049285/filter_syvely.jpg",
@@ -216,7 +216,7 @@
         "cappuccino": {
           "id": 8,
           "name": "Капучино",
-          "visible": true,
+          "visible": false,
           "free_eligible": true,
           "description": "Эспрессо с молоком",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050037/capu4ino_tljdd0.jpg",
@@ -240,7 +240,7 @@
         "latte": {
           "id": 9,
           "name": "Латте",
-          "visible": true,
+          "visible": false,
           "free_eligible": true,
           "description": "Больше молока",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050037/capu4ino_tljdd0.jpg",
@@ -259,7 +259,7 @@
          "raff": {
            "id": 10,
           "name": "Раф",
-          "visible": true,
+          "visible": false,
            "free_eligible": true,
           "description": "Ван лав",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050076/raff_ceuncu.jpg",
@@ -291,7 +291,7 @@
         "green_tea": {
           "id": 11,
           "name": "Зеленый чай",
-          "visible": true,
+          "visible": false,
           "free_eligible": true,
           "description": "Сенча",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050066/green_tea_b0zr5w.jpg",
@@ -310,7 +310,7 @@
         "black_tea": {
           "id": 12,
           "name": "Черный чай",
-          "visible": true,
+          "visible": false,
           "free_eligible": true,
           "description": "Ассам",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050032/black_tea_npyy2k.jpg",
@@ -329,7 +329,7 @@
         "matcha": {
           "id": 13,
           "name": "Маття латте",
-          "visible": true,
+          "visible": false,
           "free_eligible": true,
           "description": "Да, это матча",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050110/matta_txsggm.jpg",
@@ -348,7 +348,7 @@
         "cacao": {
           "id": 14,
           "name": "Какао",
-          "visible": true,
+          "visible": false,
           "free_eligible": true,
           "description": "Топим шоколад",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591219678/new_cacao_wr7ern.jpg",
@@ -367,7 +367,7 @@
         "flat": {
           "id": 15,
           "name": "Флэт уайт",
-          "visible": true,
+          "visible": false,
           "free_eligible": true,
           "description": "Больше кофе",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1591050061/flat_chktqt.jpg",
@@ -418,7 +418,7 @@
         "oatmeal_cookie": {
           "id": 18,
           "name": "Овсяное печенье",
-          "visible": true,
+          "visible": false,
           "free_eligible": false,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/oatmeal-cookie_ntppo3.jpg",
@@ -434,7 +434,7 @@
         "chocolate_cookie": {
           "id": 19,
           "name": "Шоколадное печенье",
-          "visible": true,
+          "visible": false,
           "free_eligible": false,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/chocolate-cookie_l732sz.jpg",
@@ -450,7 +450,7 @@
         "croissant": {
           "id": 20,
           "name": "Круассан",
-          "visible": true,
+          "visible": false,
           "free_eligible": false,
           "description": "",
           "image": "https://res.cloudinary.com/oblaka/image/upload/v1589627574/croissant_ebmedj.jpg",
@@ -482,7 +482,7 @@
         "cheesecakes": {
           "id": 22,
           "name": "Сырники",
-          "visible": true,
+          "visible": false,
           "free_eligible": false,
           "description": "",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1593944471/2020-07-05_12.28.49_ia954t.jpg",
@@ -521,7 +521,7 @@
         "nikarag": {
           "id": 24,
           "name": "Никарагуа Дивина Провиденциа\nОбработка: мытая\nСбор урожая: январь — март 2019 \nРазновидность: Caturra\nРегион: Nuevo Segovia, Ocotal \nСтанция обработки: Divina Providencia \nВес: 250 г",
-          "visible": true,
+          "visible": false,
           "free_eligible": false,
           "description": "Ананас, молочный шоколад, апельсин, персик",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596238127/divina_qbo9yt.jpg",
@@ -553,7 +553,7 @@
         "gvate": {
           "id": 26,
           "name": "Гватемала Декаф (без кофеина)\nОбработка: Декаф\nУрожай: 2019\nВес: 250 г",
-          "visible": true,
+          "visible": false,
           "free_eligible": false,
           "description": "Для фильтра и эспрессо ",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596238615/%D0%B3%D0%B2%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D0%BB%D0%B0_%D0%B4%D0%B5%D0%BA%D0%B0%D1%84_ug6mti.png",
@@ -569,7 +569,7 @@
         "efio": {
           "id": 27,
           "name": "Эфиопия Гуджи Урага из бочки\nРазновидность: типики\nРегион: Сидамо, зона Гуджи\nСбор урожая: Декабрь 2018\nСпособ обработки: Натуральная\nЭкспериментальная постферментация\nВес: 250 г",
-          "visible": true,
+          "visible": false,
           "free_eligible": false,
           "description": "Для фильтра",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596282895/efio_dx9vgq.png",
@@ -617,7 +617,7 @@
         "infone": {
           "id": 30,
           "name": "Индонезия Фринса Лактик\nРазновидность :Сигарар Утанг\nРегион: Сунда\nСбор урожая: Сентябрь 2019\nСпособ обработки: Натуральный\nЛакто ферментация \nВес: 250 г",
-          "visible": true,
+          "visible": false,
           "free_eligible": false,
           "description": "Для фильтра",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596283340/indonesya_franca_laktik_250_grbv6f.png",
@@ -633,7 +633,7 @@
         "brasi": {
           "id": 31,
           "name": "Бразилия Иван Прадо Де Мело\nРазновидность: Красный Катуаи\nРегион: Кампо Дас Вертентас\nСбор урожая: Август 2019\nСпособ обработки: Натуральный\nCушка на патио 12 дней \nВес 250 г",
-          "visible": true,
+          "visible": false,
           "free_eligible": false,
           "description": "Для фильтра",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596284170/brazylia_ivan_prado_de_melo_250_pdw5b5.png",
@@ -649,7 +649,7 @@
         "salvad": {
           "id": 32,
           "name": "Сальвадор Кафескал Капсулы\nшоколад, карамель, орех \nРазновидность: Caturra, Catimor \nРегион: San Ana, Ochupse\nСбор урожая: 2019 \nОбработка: мытая\nФермер: Mauricio Escalon \nКоличество : 10 шт",
-          "visible": true,
+          "visible": false,
           "free_eligible": false,
           "description": "Для машин Nespresso ",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596284336/dalva_hjiugh.jpg",
@@ -697,7 +697,7 @@
         "mexi": {
           "id": 35,
           "name": "Мексика Иксуатла Капсулы\nРазновидность: Марсельеза\nРегион: Веракруз\nСбор урожая: Февраль 2018\nСпособ обработки: Натуральный\nВыдержка: В бочках\nОбжарка: Под молочко\nКоличество : 10 шт",
-          "visible": true,
+          "visible": false,
           "free_eligible": false,
           "description": "Для машин Nespresso",
           "image": "https://res.cloudinary.com/dssvxzuti/image/upload/v1596282784/ixuatlan_ejrzlj.png",
